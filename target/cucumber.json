@@ -1,0 +1,3202 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User is already in checkbox page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2800000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user is on the checkbox page",
+            "match": {
+              "location": "com.interview.step_definitions.checkbox_stepDefinition.user_is_on_the_checkbox_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-20T18:10:28.565Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "click the checkbox1",
+        "description": "",
+        "id": "checkbox-feature;click-the-checkbox1",
+        "after": [
+          {
+            "result": {
+              "duration": 1089000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 63000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user click the checkbox1",
+            "match": {
+              "location": "com.interview.step_definitions.checkbox_stepDefinition.user_click_the_checkbox1()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "checkbox1 is selected",
+            "match": {
+              "location": "com.interview.step_definitions.checkbox_stepDefinition.checkbox1_is_selected()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "User is already in checkbox page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1394000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user is on the checkbox page",
+            "match": {
+              "location": "com.interview.step_definitions.checkbox_stepDefinition.user_is_on_the_checkbox_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-20T18:10:32.631Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "click the checkbox2",
+        "description": "",
+        "id": "checkbox-feature;click-the-checkbox2",
+        "after": [
+          {
+            "result": {
+              "duration": 1089000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "user click the checkbox2",
+            "match": {
+              "location": "com.interview.step_definitions.checkbox_stepDefinition.user_click_the_checkbox2()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "checkbox2 is selected",
+            "match": {
+              "location": "com.interview.step_definitions.checkbox_stepDefinition.checkbox2_is_selected()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "checkBox feature",
+    "description": "  Test checks and unchecks checkboxes.\n  Test uses assertions to make sure boxes were properly checked and unchecked.",
+    "id": "checkbox-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Checkboxes.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T18:10:35.168Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Test drags element A to element B.",
+        "description": "  Test asserts that the text on element A and B are switched.",
+        "id": "drag-and-drop;test-drags-element-a-to-element-b.",
+        "after": [
+          {
+            "result": {
+              "duration": 1085000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1432000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user is on the drag and drop page",
+            "match": {
+              "location": "com.interview.step_definitions.dragAndDrop_stepDefinition.user_is_on_the_drag_and_drop_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 276000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user drag A to drop B",
+            "match": {
+              "location": "com.interview.step_definitions.dragAndDrop_stepDefinition.user_drag_a_to_drop_b()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "A and B is switched",
+            "match": {
+              "location": "com.interview.step_definitions.dragAndDrop_stepDefinition.a_and_b_is_switched()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Drag and Drop",
+    "description": "",
+    "id": "drag-and-drop",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DragAndDrop.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T18:10:38.008Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "  Test selects Option 1 and Option 2 from the drop down menu.\n  Test asserts Option 1 and Option 2 are selected.",
+        "id": "dropdown-feature;",
+        "after": [
+          {
+            "result": {
+              "duration": 1086000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1320000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user is on the DropDown page",
+            "match": {
+              "location": "com.interview.step_definitions.dropDown_stepDefinition.user_is_on_the_drop_down_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user select Option1 and Option2",
+            "match": {
+              "location": "com.interview.step_definitions.dropDown_stepDefinition.user_select_option1_and_option2()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "Option1 and Option2 is selected",
+            "match": {
+              "location": "com.interview.step_definitions.dropDown_stepDefinition.option1_and_option2_is_selected()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Dropdown feature",
+    "description": "",
+    "id": "dropdown-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Dropdown.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T18:10:40.557Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Test refreshes the page a couple of times.",
+        "description": "  Test asserts that the content changes on each refresh.",
+        "id": "dynamic-content;test-refreshes-the-page-a-couple-of-times.",
+        "after": [
+          {
+            "result": {
+              "duration": 1086000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1482000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user is on the Dynamic content page",
+            "match": {
+              "location": "com.interview.step_definitions.dynamicContent_stepDefinition.user_is_on_the_dynamic_content_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 587000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user clicks on the click here for  Dynamic content  changes",
+            "match": {
+              "location": "com.interview.step_definitions.dynamicContent_stepDefinition.user_clicks_on_the_click_here_for_dynamic_content_changes()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "content changes on each refresh",
+            "match": {
+              "location": "com.interview.step_definitions.dynamicContent_stepDefinition.content_changes_on_each_refresh()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Dynamic Content",
+    "description": "",
+    "id": "dynamic-content",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DynamicContent.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1421000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user is on the Dynamic Controls page",
+            "match": {
+              "location": "com.interview.step_definitions.DynamicControl_stepDefinition.user_is_on_the_dynamic_controls_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-20T18:10:43.723Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "As user click on the Remove/add button either of one is presented",
+        "description": "",
+        "id": "dynamic-controls;as-user-click-on-the-remove/add-button-either-of-one-is-presented",
+        "after": [
+          {
+            "result": {
+              "duration": 1087000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3088000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "Test clicks on the Remove Button and uses explicit wait.",
+            "match": {
+              "location": "com.interview.step_definitions.DynamicControl_stepDefinition.test_clicks_on_the_remove_button_and_uses_explicit_wait()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10054000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "Test asserts that the checkbox is gone.",
+            "match": {
+              "location": "com.interview.step_definitions.DynamicControl_stepDefinition.test_asserts_that_the_checkbox_is_gone()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3065000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "Test clicks on Add Button and uses explicit wait.",
+            "match": {
+              "location": "com.interview.step_definitions.DynamicControl_stepDefinition.test_clicks_on_add_button_and_uses_explicit_wait()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "Test asserts that the checkbox is present.",
+            "match": {
+              "location": "com.interview.step_definitions.DynamicControl_stepDefinition.test_asserts_that_the_checkbox_is_present()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1812000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user is on the Dynamic Controls page",
+            "match": {
+              "location": "com.interview.step_definitions.DynamicControl_stepDefinition.user_is_on_the_dynamic_controls_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-20T18:11:02.461Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "As user click on the Enable button user will see the text either it\u0027s enabled or disabled",
+        "description": "",
+        "id": "dynamic-controls;as-user-click-on-the-enable-button-user-will-see-the-text-either-it-s-enabled-or-disabled",
+        "after": [
+          {
+            "result": {
+              "duration": 1090000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3063000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "Test clicks on the Enable Button and uses explicit wait.",
+            "match": {
+              "location": "com.interview.step_definitions.DynamicControl_stepDefinition.test_clicks_on_the_enable_button_and_uses_explicit_wait()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "Test asserts that the text box is enabled.",
+            "match": {
+              "location": "com.interview.step_definitions.DynamicControl_stepDefinition.test_asserts_that_the_text_box_is_enabled()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3095000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "Test clicks on the Disable Button and uses explicit wait.",
+            "match": {
+              "location": "com.interview.step_definitions.DynamicControl_stepDefinition.test_clicks_on_the_disable_button_and_uses_explicit_wait()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "Test asserts that the text box is disabled.",
+            "match": {
+              "location": "com.interview.step_definitions.DynamicControl_stepDefinition.test_asserts_that_the_text_box_is_disabled()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Dynamic Controls",
+    "description": "",
+    "id": "dynamic-controls",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DynamicControls.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T18:11:11.568Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "dynamic-loading;",
+        "after": [
+          {
+            "result": {
+              "duration": 1082000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1818000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user is on the dynamic loading page",
+            "match": {
+              "location": "com.interview.step_definitions.dynamicLoading_stepDefinition.user_is_on_the_dynamic_loading_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5078000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user clicks the start button and uses explicit wait.",
+            "match": {
+              "location": "com.interview.step_definitions.dynamicLoading_stepDefinition.user_clicks_the_start_button_and_uses_explicit_wait()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "asserts that “Hello World!” text is displayed.",
+            "match": {
+              "location": "com.interview.step_definitions.dynamicLoading_stepDefinition.asserts_that_hello_world_text_is_displayed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Dynamic Loading",
+    "description": "",
+    "id": "dynamic-loading",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DynamicLoading.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T18:11:19.570Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Test clicks on the file.",
+        "description": "  Test asserts that the file is downloaded.",
+        "id": "file-download;test-clicks-on-the-file.",
+        "after": [
+          {
+            "result": {
+              "duration": 1083000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1819000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user is on the file download page",
+            "match": {
+              "location": "com.interview.step_definitions.fileDownload_stepDefinition.user_is_on_the_file_download_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 68000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user click the some-file.txt",
+            "match": {
+              "location": "com.interview.step_definitions.fileDownload_stepDefinition.user_click_the_some_file_txt()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "it is downloaded",
+            "match": {
+              "location": "com.interview.step_definitions.fileDownload_stepDefinition.it_is_downloaded()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "File Download",
+    "description": "",
+    "id": "file-download",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/FileDownload.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T18:11:22.601Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Test uses Upload Button or Drag and Drop to upload a file.",
+        "description": "  Test asserts that the file is uploaded.",
+        "id": "file-upload;test-uses-upload-button-or-drag-and-drop-to-upload-a-file.",
+        "after": [
+          {
+            "result": {
+              "duration": 1090000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1728000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user is on the file upload page",
+            "match": {
+              "location": "com.interview.step_definitions.fileUpload_stepDefinition.user_is_on_the_file_upload_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user click chooseFIle button and select file",
+            "match": {
+              "location": "com.interview.step_definitions.fileUpload_stepDefinition.user_click_choose_f_ile_button_and_select_file()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "click the upload button",
+            "match": {
+              "location": "com.interview.step_definitions.fileUpload_stepDefinition.click_the_upload_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user will see File is Uploaded!",
+            "match": {
+              "location": "com.interview.step_definitions.fileUpload_stepDefinition.user_will_see_file_is_uploaded()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "File Upload",
+    "description": "",
+    "id": "file-upload",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/FileUpload.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T18:11:25.601Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Test scrolls the page.",
+        "description": "  Test asserts that the floating menu is still displayed.",
+        "id": "floating-menu;test-scrolls-the-page.",
+        "after": [
+          {
+            "result": {
+              "duration": 1083000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1433000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user is on the Floating Menu page",
+            "match": {
+              "location": "com.interview.step_definitions.floatingMenu_stepDefinition.user_is_on_the_floating_menu_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user scrolls the page",
+            "match": {
+              "location": "com.interview.step_definitions.floatingMenu_stepDefinition.user_scrolls_the_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "the floating menu is still displayed",
+            "match": {
+              "location": "com.interview.step_definitions.floatingMenu_stepDefinition.the_floating_menu_is_still_displayed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Floating Menu",
+    "description": "",
+    "id": "floating-menu",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/FloatingMenu.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T18:11:28.159Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Test switches to Iframe and types some text.",
+        "description": "  Test asserts that the typed text is as expected.",
+        "id": "iframe;test-switches-to-iframe-and-types-some-text.",
+        "after": [
+          {
+            "result": {
+              "duration": 1085000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1831000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user is on the iframe page",
+            "match": {
+              "location": "com.interview.step_definitions.iframe_stepDefinition.user_is_on_the_iframe_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 236000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user type in the iframe text box",
+            "match": {
+              "location": "com.interview.step_definitions.iframe_stepDefinition.user_type_in_the_iframe_text_box()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "the typed text is as expected",
+            "match": {
+              "location": "com.interview.step_definitions.iframe_stepDefinition.the_typed_text_is_as_expected()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Iframe",
+    "description": "",
+    "id": "iframe",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Iframe.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T18:11:31.339Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Test Clicks on JS Alert Button.",
+        "description": "  Test asserts alert message.\n  Test clicks on JS confirm Button and clicks ok on alert.\n  Test asserts the alert message.\n  Test clicks on JS Prompt Button and types a message on Prompt.\n  Test asserts that the alert message contains the typed message.",
+        "id": "javascript-alerts;test-clicks-on-js-alert-button.",
+        "after": [
+          {
+            "result": {
+              "duration": 1089000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1452000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user is on the alert page",
+            "match": {
+              "location": "com.interview.step_definitions.javaScriptAlert_stepDefinition.user_is_on_the_alert_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 140000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user clicks on JS Alert Button alert message displayed",
+            "match": {
+              "location": "com.interview.step_definitions.javaScriptAlert_stepDefinition.user_clicks_on_js_alert_button_alert_message_displayed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "user clicks on JS confirm Button and clicks ok on alert",
+            "match": {
+              "location": "com.interview.step_definitions.javaScriptAlert_stepDefinition.user_clicks_on_js_confirm_button_and_clicks_ok_on_alert()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "new alert message is displayed",
+            "match": {
+              "location": "com.interview.step_definitions.javaScriptAlert_stepDefinition.new_alert_message_is_displayed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2057000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "user clicks on JS Prompt Button and types a message on Prompt",
+            "match": {
+              "location": "com.interview.step_definitions.javaScriptAlert_stepDefinition.user_clicks_on_js_prompt_button_and_types_a_message_on_prompt()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "the alert message contains the typed message",
+            "match": {
+              "location": "com.interview.step_definitions.javaScriptAlert_stepDefinition.the_alert_message_contains_the_typed_message()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "JavaScript Alerts",
+    "description": "",
+    "id": "javascript-alerts",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/JavaScriptAlerts.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T18:11:36.467Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Test finds the JavaScript error on the page.",
+        "description": "  Test asserts that the page contains error: Cannot read property \u0027xyz\u0027 of undefined.",
+        "id": "javascript-error;test-finds-the-javascript-error-on-the-page.",
+        "after": [
+          {
+            "result": {
+              "duration": 1076000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1071000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user is on the JavaScript Error page",
+            "match": {
+              "location": "com.interview.step_definitions.JavaScriptError_stepDefinition.user_is_on_the_java_script_error_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "asserts that the page contains error",
+            "match": {
+              "location": "com.interview.step_definitions.JavaScriptError_stepDefinition.asserts_that_the_page_contains_error()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "JavaScript Error",
+    "description": "",
+    "id": "javascript-error",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/JavaScriptError.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1682000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.interview.step_definitions.login_stepDefinition.user_is_on_the_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-20T18:11:38.643Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Login with correct credential",
+        "description": "",
+        "id": "login--feature;login-with-correct-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 1085000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 90000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user enters correct username",
+            "match": {
+              "location": "com.interview.step_definitions.login_stepDefinition.user_enters_correct_username()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "user enter correct password",
+            "match": {
+              "location": "com.interview.step_definitions.login_stepDefinition.user_enter_correct_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "logged in successfully",
+            "match": {
+              "location": "com.interview.step_definitions.login_stepDefinition.logged_in_successfully()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1547000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.interview.step_definitions.login_stepDefinition.user_is_on_the_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-20T18:11:41.727Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login with wrong credential",
+        "description": "",
+        "id": "login--feature;login-with-wrong-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 1087000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "user enters wrong username",
+            "match": {
+              "location": "com.interview.step_definitions.login_stepDefinition.user_enters_wrong_username()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "user enter wrong password",
+            "match": {
+              "location": "com.interview.step_definitions.login_stepDefinition.user_enter_wrong_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "failed login",
+            "match": {
+              "location": "com.interview.step_definitions.login_stepDefinition.failed_login()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Login  feature",
+    "description": "  As a user, I should be able to login with correct credential\n  As a user, I should fail to log in with wrong credential",
+    "id": "login--feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T18:11:44.654Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Test does a mouse hover on each image.",
+        "description": "  Test asserts that additional information is displayed for each image.",
+        "id": "mouse-hover;test-does-a-mouse-hover-on-each-image.",
+        "after": [
+          {
+            "result": {
+              "duration": 1087000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1386000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user is on the Mouse Hover page",
+            "match": {
+              "location": "com.interview.step_definitions.Hover_stepDefinition.user_is_on_the_mouse_hover_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 348000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "mouse hover on each image",
+            "match": {
+              "location": "com.interview.step_definitions.Hover_stepDefinition.mouse_hover_on_each_image()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "additional information is displayed for each image.",
+            "match": {
+              "location": "com.interview.step_definitions.Hover_stepDefinition.additional_information_is_displayed_for_each_image()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Mouse Hover",
+    "description": "",
+    "id": "mouse-hover",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/MouseHover.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T18:11:47.513Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Test clicks on the Click Here link a multiple times.",
+        "description": "  Test asserts that one of the “Action Successful”, “Action unsuccessful, please try again”\n  and “Action Unsuccessful” messages show on click.",
+        "id": "notification-message;test-clicks-on-the-click-here-link-a-multiple-times.",
+        "after": [
+          {
+            "result": {
+              "duration": 1083000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1379000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user is on the Notification Message Page",
+            "match": {
+              "location": "com.interview.step_definitions.notificationMessage_stepDefinition.user_is_on_the_notification_message_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1146000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user clicks on the Click Here link a multiple times",
+            "match": {
+              "location": "com.interview.step_definitions.notificationMessage_stepDefinition.user_clicks_on_the_click_here_link_a_multiple_times()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "asserts that one of the “Action Successful”, “Action unsuccessful, please try again”and “Action Unsuccessful” messages show on click",
+            "match": {
+              "location": "com.interview.step_definitions.notificationMessage_stepDefinition.asserts_that_one_of_the_action_successful_action_unsuccessful_please_try_again_and_action_unsuccessful_messages_show_on_click()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Notification Message",
+    "description": "",
+    "id": "notification-message",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/NotificationMessage.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T18:11:51.127Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Test clicks on the Click Here link.",
+        "description": "  Test asserts that a new tab is opened with text New Window.",
+        "id": "open-in-new-tab;test-clicks-on-the-click-here-link.",
+        "after": [
+          {
+            "result": {
+              "duration": 1085000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.interview.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1370000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user is on the Open in new Tap page",
+            "match": {
+              "location": "com.interview.step_definitions.newTap_stepDefinition.user_is_on_the_open_in_new_tap_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user clicks on the Click Here link",
+            "match": {
+              "location": "com.interview.step_definitions.newTap_stepDefinition.user_clicks_on_the_click_here_link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runBeforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "asserts that a new tab is opened with text New Window",
+            "match": {
+              "location": "com.interview.step_definitions.newTap_stepDefinition.asserts_that_a_new_tab_is_opened_with_text_new_window()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.interview.step_definitions.Hooks.runAfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Open in New Tab",
+    "description": "",
+    "id": "open-in-new-tab",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/OpenNewTap.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
