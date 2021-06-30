@@ -31,6 +31,14 @@ DropDownPage dropDownPage=new DropDownPage();
             eachOption.click();
             Assert.assertTrue(eachOption.isSelected());
         }
+        select.selectByVisibleText("Option 1");
+        Assert.assertTrue(dropDownPage.option1.isSelected());
+        select.selectByValue("2");
+        Assert.assertTrue(dropDownPage.option2.isSelected());
+        select.selectByIndex(2);
+        Assert.assertTrue(dropDownPage.option2.isSelected());
+        //index starts from 0
+
     }
     @Then("Option1 and Option2 is selected")
     public void option1_and_option2_is_selected() {

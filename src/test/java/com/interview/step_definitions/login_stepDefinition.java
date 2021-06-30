@@ -5,15 +5,20 @@ import com.interview.utilities.ConfigurationReader;
 import com.interview.utilities.Driver;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
-import org.openqa.selenium.Keys;
 
 public class login_stepDefinition {
 LoginPage loginPage=new LoginPage();
+
+
+
+
     @Given("user is on the login page")
     public void user_is_on_the_login_page() {
 
         String url= ConfigurationReader.getProperty("baseUrl");
         Driver.getDriver().get(url+"/login");
+
+
     }
 
 
@@ -57,6 +62,10 @@ loginPage.passwordInputBox.sendKeys(ConfigurationReader.getProperty("password"))
     public void user_enter_wrong_password() {
         loginPage.passwordInputBox.sendKeys("Thanks1234!");
     }
+
+
+
+
     @Then("failed login")
     public void failed_login() {
 
@@ -72,6 +81,7 @@ loginPage.passwordInputBox.sendKeys(ConfigurationReader.getProperty("password"))
 
 
     }
+
 
 
 

@@ -22,24 +22,25 @@ DynamicContentPage dynamicContentPage=new DynamicContentPage();
 
 
 
-
+    List<String>allText=new ArrayList<>();
     @When("user clicks on the click here for  Dynamic content  changes")
     public void user_clicks_on_the_click_here_for_dynamic_content_changes() {
-       List<String>allText=new ArrayList<>();
+
         for (int i = 0; i <5 ; i++) {
             dynamicContentPage.clickHereButton.click();
          String eachText=   dynamicContentPage.dynamicContent.getText();
          allText.add(eachText);
         }
         System.out.println("allText = " + allText);
-        for (String each : allText) {
-            Assert.assertEquals(each,each);
-        }
+
+//        for (String each : allText) {
+//            Assert.assertEquals(each,each);
+//        }
 
     }
     @Then("content changes on each refresh")
     public void content_changes_on_each_refresh() {
-
+        Assert.assertNotEquals(allText.get(0),allText.get(1));
 
     }
 

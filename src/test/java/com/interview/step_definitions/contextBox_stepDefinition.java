@@ -10,7 +10,8 @@ import org.junit.Assert;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.interactions.Actions;
 
-public class contextBox_stepDefinition {
+public class
+contextBox_stepDefinition {
 ContextMenuPage contextMenuPage=new ContextMenuPage();
     @Given("user is on the Context Menu page")
     public void user_is_on_the_context_menu_page() {

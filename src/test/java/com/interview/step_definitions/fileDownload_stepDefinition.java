@@ -21,7 +21,7 @@ public class fileDownload_stepDefinition {
     }
 
 
-
+///Users/minibae/Downloads/some-file.txt
 
     @When("user click the some-file.txt")
     public void user_click_the_some_file_txt() {

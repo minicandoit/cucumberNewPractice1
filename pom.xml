@@ -56,6 +56,8 @@
                             <jsonFiles>
                                 <param>**/cucumber*.json</param>
                             </jsonFiles>
+<!--                            <checkBuildResult>false</checkBuildResult>-->
+
                         </configuration>
                     </execution>
                 </executions>
@@ -67,6 +69,15 @@
 
 
     <dependencies>
+
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>4.3.3</version>
+            <scope>test</scope>
+        </dependency>
+
+
 
 
         <dependency>

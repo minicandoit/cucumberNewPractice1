@@ -1,4 +1,4 @@
-@test
+@test@dragAndDrop
 Feature: Drag and Drop
 
   Scenario: Test drags element A to element B.

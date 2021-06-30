@@ -15,8 +15,8 @@ public class DragAndDropPage {
     @FindBy(id = "column-b")
     public WebElement columnB;
     @FindBy(xpath = "(//header)[1]")
-    public WebElement headerB;
-    @FindBy(xpath = "(//header)[2]")
     public WebElement headerA;
+    @FindBy(xpath = "(//header)[2]")
+    public WebElement headerB;
 
 }

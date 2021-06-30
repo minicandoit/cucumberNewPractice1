@@ -1,4 +1,4 @@
-@test
+@test1
 Feature: Dynamic Content
 
   Scenario: Test refreshes the page a couple of times.

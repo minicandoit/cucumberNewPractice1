@@ -1,4 +1,4 @@
-@test
+@smoke
 Feature:Login  feature
   As a user, I should be able to login with correct credential
   As a user, I should fail to log in with wrong credential
@@ -11,10 +11,11 @@ Feature:Login  feature
     And user enter correct password
     Then logged in successfully
 
-
+@new
       Scenario: Login with wrong credential
         When user enters wrong username
         And  user enter wrong password
+
         Then failed login
 
 

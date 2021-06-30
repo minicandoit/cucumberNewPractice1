@@ -1,4 +1,4 @@
-@test
+@DropDown
 Feature: Dropdown feature
 
   Scenario:

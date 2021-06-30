@@ -21,6 +21,10 @@ DragAndDropPage dragAndDropPage=new DragAndDropPage();
 
     @When("user drag A to drop B")
     public void user_drag_a_to_drop_b() {
+        System.out.println("dragAndDropPage.headerA = " + dragAndDropPage.headerA.getText());
+        System.out.println("dragAndDropPage.headerB = " + dragAndDropPage.headerB.getText());
+
+
         Actions actions = new Actions(Driver.getDriver());
         if(dragAndDropPage.columnA.getText().equals("A")){
 actions.dragAndDrop(dragAndDropPage.columnA, dragAndDropPage.columnB).perform();}
@@ -41,5 +45,26 @@ actions.dragAndDrop(dragAndDropPage.columnA, dragAndDropPage.columnB).perform();
             Assert.assertTrue(dragAndDropPage.columnA.getText().equals("A"));
         }
 
+
+        if (dragAndDropPage.columnA.getText().equals("B")) {
+
+            Assert.assertTrue(dragAndDropPage.columnA.getText().equals(dragAndDropPage.headerB.getText()));
+        }else{
+            Assert.assertTrue(dragAndDropPage.columnA.getText().equals(dragAndDropPage.headerA.getText()));
+        }
+
+
+
+
     }
+
+
+
 }
+
+
+
+
+
+
+

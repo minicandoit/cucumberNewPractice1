@@ -1,17 +1,23 @@
 package com.interview.step_definitions;
 
 import com.interview.utilities.BrowserUtils;
+import com.interview.utilities.ConfigurationReader;
 import com.interview.utilities.Driver;
 import io.cucumber.java.*;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import static io.restassured.RestAssured.*;
 
 public class Hooks {
 
     @Before
     public void setUpScenario(){
+
+
+
         System.out.println("----------Setting up browser with further details...");
     }
+
 
 
 
