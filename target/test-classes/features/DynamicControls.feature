@@ -1,4 +1,4 @@
-@test
+@Demo
 Feature: Dynamic Controls
 
   Background:

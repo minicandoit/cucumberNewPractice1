@@ -1,6 +1,7 @@
 package com.interview.step_definitions;
 
 import com.interview.pages.DynamicControlPage;
+import com.interview.utilities.BrowserUtils;
 import com.interview.utilities.ConfigurationReader;
 import com.interview.utilities.Driver;
 import io.cucumber.java.en.Given;
@@ -31,10 +32,11 @@ public class DynamicControl_stepDefinition {
 
     }
     @Then("Test asserts that the checkbox is gone.")
-    public void test_asserts_that_the_checkbox_is_gone() {
+    public void test_asserts_that_the_checkbox_is_gone()  {
         try{Assert.assertTrue(!dynamicControlPage.checkBox.isDisplayed());}
         catch(Exception e){
             System.out.println("no checkbox is exist");
+
         }
     }
     @Then("Test clicks on Add Button and uses explicit wait.")
@@ -42,6 +44,7 @@ public class DynamicControl_stepDefinition {
         WebDriverWait wait=new WebDriverWait(Driver.getDriver(),5);
         dynamicControlPage.RemoveAddButton.click();
         wait.until(ExpectedConditions.visibilityOfAllElements(dynamicControlPage.checkBox));
+
     }
     @Then("Test asserts that the checkbox is present.")
     public void test_asserts_that_the_checkbox_is_present() {
